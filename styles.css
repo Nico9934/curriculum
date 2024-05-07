@@ -1,3 +1,4 @@
+
 .body {
 
     
@@ -30,8 +31,6 @@
 }
 .image {
     width: auto;
-
-    /* justify-content: center; */
     display: flex;  
     margin-bottom: 3rem;
 }
@@ -76,6 +75,7 @@
 .about_p {
     margin-left: 2rem;
     font-size: 1.8rem;
+    font-weight: 500;
 }
 .languages {
     width: 90%;
@@ -158,7 +158,7 @@
     fill: #04496D;
 
 }
-.header_p {
+.header_p, .about_p {
     font-size: 1.8rem;
     font-weight: 500;
     line-height: 2.5rem;
@@ -206,4 +206,4 @@
 }
 .skills_title{
 
-}
+} 
